@@ -3,7 +3,30 @@
     font-size: 4rem;
     color: #0274be;
     margin: 0;
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
+    animation-name: intermittent;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.moreTime {
+    animation-duration: 4s;
+}
+
+@keyframes intermittent {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .leftTimeDescription {
