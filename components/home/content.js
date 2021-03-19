@@ -19,15 +19,21 @@ export default function content() {
                         <div className='col col-md-6'>
                             <ul className={styles.list}>
                                 <li>
-                                    <Check /> Anti-inflamatorio: Combate el
-                                    sobre peso
+                                    <Check />
+                                    <span>
+                                        Anti-inflamatorio: Combate el sobre peso
+                                    </span>
                                 </li>
                                 <li>
-                                    <Check /> Empoderador: Nutre a tu cerebro
+                                    <Check />
+                                    <span>Empoderador: Nutre a tu cerebro</span>
                                 </li>
                                 <li>
-                                    <Check /> Amigable con todos, en especial
-                                    con tus seres amados
+                                    <Check />
+                                    <span>
+                                        Amigable con todos, en especial con tus
+                                        seres amados
+                                    </span>
                                 </li>
                             </ul>
                         </div>

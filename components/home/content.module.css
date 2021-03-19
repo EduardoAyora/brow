@@ -14,11 +14,19 @@
 
 .list li {
     margin-bottom: 0.8em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list svg {
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.list li span {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
 }
 
 .principal {
@@ -33,6 +41,7 @@
 .callText {
     color: #0274be;
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 770px) {
@@ -40,5 +49,14 @@
         display: flex;
         align-items: center;
         margin: 0;
+    }
+    .list li {
+        justify-content: unset;
+    }
+    .list li span {
+        margin-left: 1em;
+    }
+    .callText {
+        font-size: 2rem;
     }
 }
