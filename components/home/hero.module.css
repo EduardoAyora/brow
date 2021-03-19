@@ -1,0 +1,37 @@
+/* typography */
+.leftTime {
+    font-size: 4rem;
+    color: #0274be;
+    margin: 0;
+    margin-bottom: .25em;
+}
+
+.leftTimeDescription {
+    font-size: 1.2rem;
+    color: gray;
+    margin: 0;
+}
+
+.title {
+    font-size: 4rem;
+    color: #0274be;
+    margin: 0;
+}
+
+.description {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
+/* layout */
+.timer {
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 2em;
+}
+
+.callToAction {
+    text-align: center;
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+}

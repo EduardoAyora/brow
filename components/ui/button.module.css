@@ -1,0 +1,18 @@
+/* typography */
+.button {
+    font-size: 1.2rem;
+    padding: .7em 2em;
+}
+
+/* layout */
+.button {
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #4BB543;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.button:hover {
+
+}
