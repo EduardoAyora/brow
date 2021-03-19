@@ -1,0 +1,42 @@
+.content {
+    padding-bottom: 5em;
+}
+
+.upContent {
+    margin-bottom: 3em;
+}
+
+.list {
+    font-size: 1.2rem;
+}
+
+.list li {
+    margin-bottom: 0.8em;
+}
+
+.list svg {
+    width: 20px;
+    height: 20px;
+}
+
+.principal {
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+}
+
+.callText {
+    color: #0274be;
+    font-weight: 700;
+}
+
+@media (min-width: 770px) {
+    .verticalCentered {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .upContent > div {
+        padding: 0 2em;
+    }
+}
