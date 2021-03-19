@@ -2,8 +2,10 @@
     padding-bottom: 5em;
 }
 
-.upContent {
-    margin-bottom: 3em;
+.negative {
+    padding: 3em 0;
+    background-color: #0274be;
+    color: white;
 }
 
 .list {
@@ -24,6 +26,10 @@
     margin-bottom: 2em;
 }
 
+.callToAction {
+    padding: 3em 0 7em;
+}
+
 .callText {
     color: #0274be;
     font-weight: 700;
@@ -34,9 +40,5 @@
         display: flex;
         align-items: center;
         margin: 0;
-    }
-
-    .upContent > div {
-        padding: 0 2em;
     }
 }
